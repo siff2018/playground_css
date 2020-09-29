@@ -1,0 +1,70 @@
+/**
+ * starWars
+ * - Starwars sequence
+ */
+ @keyframes starWars {
+    0% {
+      transform: translate3d(0,500px,0) rotateX(-60deg) scale(2);
+    }
+    99.9% {
+      transform: translate3d(0, -1000px, 0) rotateX(60deg) scale(.19);
+    }
+    100% {
+      display: none;
+    }
+  }
+  
+  .starWars {
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+    animation-name: starWars;
+    animation-duration: 10s;
+  }
+
+  .bg {
+      background-color: aliceblue;
+  }
+
+  **************** NORMIE *************/
+
+/**
+ * fadeIn
+ * - fades in
+ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+.fadeIn {
+  animation-timing-function: linear;
+  transform-origin: bottom center;
+  animation-name: fadeIn;
+  animation-duration: .3s;
+}
+
+
+/**
+ * Pulse
+ * - Increases and decreases in size
+ */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+
+}

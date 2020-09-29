@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/siff2018/playground_css#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^3.4.1",
     "woah.css": "^1.3.1"
   }
