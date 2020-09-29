@@ -1,0 +1,26 @@
+{
+  "name": "playing_nodejs_css",
+  "version": "1.0.0",
+  "description": "playground for creating css animation and some staff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siff2018/playground_css.git"
+  },
+  "keywords": [
+    "pushIt"
+  ],
+  "author": "sif Mcarby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siff2018/playground_css/issues"
+  },
+  "homepage": "https://github.com/siff2018/playground_css#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "woah.css": "^1.3.1"
+  }
+}
